@@ -1,0 +1,22 @@
+{
+  "name": "2016_MVP_Project",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "jquery": "~2.2.0",
+    "underscore": "~1.8.3",
+    "angular-route": "~1.5.0",
+    "angular-mocks": "~1.5.0"
+  }
+}

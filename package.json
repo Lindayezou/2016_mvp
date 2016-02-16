@@ -1,0 +1,24 @@
+{
+  "name": "2016_mvp_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Linda Zou",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.3.1",
+    "body-parser": "^1.15.0",
+    "bookshelf": "^0.9.1",
+    "express": "^4.13.4",
+    "express-partials": "^0.3.0",
+    "express-sessions": "^1.0.5",
+    "knex": "^0.9.0",
+    "nodemon": "^1.8.1",
+    "sqlite3": "^3.1.1",
+    "underscore": "^1.8.3"
+  }
+}

@@ -1,0 +1,8 @@
+.DS_Store
+npm-debug.log
+db/shortly.sqlite
+node_modules
+
+
+
+
