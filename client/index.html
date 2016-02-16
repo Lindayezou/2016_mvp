@@ -10,7 +10,7 @@
     <h1>Secret Santa</h1>
 
 
-    <div id='container' ng-controller='ListController'>
+    <div>
       <!-- Your html here -->
 <!--       <div class='navigation'>
       <ul>
@@ -29,7 +29,12 @@
           </li>
         </ul>
         <button ng-click = 'shuffle(list)'>Submit List</button>
-        {{randomlist}}
+        <ul>
+          <li ng-repeat = "(name, pair) in randomlist">
+            {{name}} : {{pair}}
+          </li>
+        </ul>
+
       </div>
     </div>      
 

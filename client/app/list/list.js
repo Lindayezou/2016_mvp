@@ -15,6 +15,7 @@ angular.module('SecretSanta.list', [])
   }
 
   $scope.shuffle = function(list) {
+    console.log("shuffle call")
     var shuffle = function(array) {
     var shuffled = array.slice();
     for ( var i = 0; i < shuffled.length; i++) {
