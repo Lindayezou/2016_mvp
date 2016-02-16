@@ -39,3 +39,5 @@ createTable(function(err) {
     });
   }
 });
+
+exports.db = db;
