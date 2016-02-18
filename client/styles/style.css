@@ -1,0 +1,22 @@
+
+h1 {
+  position: relative;
+  min-height: 100%;
+  color: #0066ff;
+}
+
+h3 {
+  position: relative;
+  min-height: 100%;
+  color: #0000cc;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #d0e4fe;
+}
+
+main {
+  padding: 60px 15px 0;
+  
+}

@@ -10,18 +10,12 @@
     <h1>Secret Santa</h1>
 
 
-    <div>
-      <!-- Your html here -->
-<!--       <div class='navigation'>
-      <ul>
-        <li><a href='/#/list' class='index'>All Names</a></li>
-      </ul>
-      </div> -->
+    <div class = 'main'>
+
       <div class='list' ng-controller = "ListController">
         <h3>List of Names</h3>
         <input ng-model = 'newName'>
         <button ng-click = 'addtolist(newName)'>Add Another Participant</button>
-                    {{ newName }}
 
         <ul>
           <li ng-repeat = "name in list track by $index" ng-click = 'removefromlist($index)'>
